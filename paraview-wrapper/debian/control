@@ -1,0 +1,12 @@
+Source: paraview-wrapper
+Section: scientific
+Priority: extra
+Maintainer: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://cmsi.github.io/MateriAppsLive
+
+Package: paraview-wrapper
+Architecture: all
+Depends: paraview
+Description: Wrapper for paraview for avoiding 3D acceleration problem
